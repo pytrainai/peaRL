@@ -1,0 +1,6 @@
+# All experiment config paths
+env: "factory/defaults/env_default.yaml"
+agent: "factory/defaults/ddpg_default.yaml"
+memory: "factory/defaults/memory_default.yaml"
+process: "factory/defaults/process_default.yaml"
+trainer: "factory/defaults/trainer_default.yaml"

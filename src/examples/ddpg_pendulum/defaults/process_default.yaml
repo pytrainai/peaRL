@@ -1,0 +1,5 @@
+# --- Process default config ---
+process_name: "process_0"
+process_np_seed: 42
+warmup_timesteps: 5000
+batch_size: 264
