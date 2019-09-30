@@ -1,3 +1,0 @@
-# --- Environment default config ---
-env_name: "Pendulum-v0"
-env_seed: 42

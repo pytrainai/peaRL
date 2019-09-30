@@ -1,6 +1,0 @@
-# --- Trainer default config ---
-max_episodes: 50000
-train_every: 100
-print_every: 50
-warmup_timesteps: 5000
-noise_decay: 0.999999

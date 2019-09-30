@@ -1,0 +1,37 @@
+# --- Environment config ---
+env: 
+ env_name: "CartPole-v1"
+ env_type: "discrete"
+ env_seed: 14
+
+# Algo default config
+agent: 
+ # --- Global options ---
+ agent_name: "dqn"
+ torch_use_cuda: True
+ torch_seed: 24
+ # --- Learning rates ---
+ agent_lr: 0.001
+ # --- Noise ---
+ agent_eps_initial: 0.5
+ agent_eps_final: 0.01
+ agent_eps_decay: 0.995
+ 
+# --- Memory ---
+memory: 
+ memory_type: "vanilla"
+ memory_size: 100000
+
+# --- Process default config ---
+process: 
+ process_name: "process_0"
+ process_np_seed: 14
+ batch_size: 64
+
+# --- Trainer default config ---
+trainer:
+ max_episodes: 500
+ train_every: 4
+ print_every: 50
+ warmup_timesteps: 1000
+ noise_decay: 0.995
